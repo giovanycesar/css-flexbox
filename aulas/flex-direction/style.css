@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+margin: 0 auto;
+font-size: 1.5em;
+border: 1px solid gray;
+max-width: 400px;
+display: flex;
+}
+
+.item {
+    background-color: tomato;
+    margin: 5px;
+    text-align: center;
+    font-weight: bold;
+    flex: 1;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.column-reverse {
+    flex-direction: column-reverse;
+}

@@ -1,0 +1,46 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+margin: 0 auto;
+font-size: 1.5em;
+border: 1px solid gray;
+max-width: 400px;
+display: flex;
+min-height: 350px;
+flex-wrap: wrap;
+}
+
+.item {
+    background-color: tomato;
+    margin: 5px;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    flex: 1;
+}
+
+.stretch {
+    align-content: stretch;
+}
+
+.flex-start {
+    align-content: flex-start;
+}
+
+.flex-end {
+    align-content: flex-end;
+}
+
+.center {
+    align-content: center;
+}
+
+.space-between {
+    align-content: space-between;
+}
+
+.space-around {
+    align-content: space-around;
+}

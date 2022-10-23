@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+margin: 0 auto;
+font-size: 1.5em;
+border: 1px solid gray;
+max-width: 400px;
+}
+
+.item {
+    background-color: tomato;
+    margin: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-item-1 {
+    flex: 1;
+}

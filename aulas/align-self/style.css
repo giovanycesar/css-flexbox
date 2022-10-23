@@ -1,0 +1,51 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+margin: 0 auto;
+font-size: 1.5em;
+border: 1px solid gray;
+max-width: 400px;
+display: flex;
+}
+
+.item {
+    background-color: tomato;
+    margin: 5px;
+    text-align: center;
+    font-weight: bold;
+    flex: 1;
+}
+
+.item:first-child {
+	padding-top: 20px;
+}
+
+.flex-end {
+    align-self: flex-end;
+}
+
+.flex-start {
+    align-self: flex-start;
+}
+
+.center {
+    align-self: center;
+}
+
+.baseline {
+    align-self: baseline;
+}
+
+.align-items {
+	align-items: flex-end;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.stretch {
+    align-self: stretch;
+}
